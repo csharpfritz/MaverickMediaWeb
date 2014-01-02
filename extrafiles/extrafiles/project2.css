@@ -1,0 +1,203 @@
+<!--
+Author: Linda J. McLin
+Last Update: October 20, 2012
+Filename: project2.css
+Purpose:  CSS file for Project files
+-->
+
+body {
+  width: 80%;
+  font-size: 1.9em;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: navy;
+  background-color: #99ccff;
+  text-align: left;
+}
+
+<!--
+body {
+  font-size: 1.1em;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: navy;
+  background-color: #99ccff;
+}
+-->
+
+h1 {
+  background-color: navy;
+  color: gold;
+  padding: 4px;
+  margin: 0 0 0 10px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #996600;
+  color: gold;
+  padding: 4px;
+  margin: 10px 0 0 10px;
+  text-align: center;
+}
+
+a:link {
+  color: gold;
+  font-weight: bold;
+}
+
+a:visited {
+  color: maroon;
+  background-color: gold;
+}
+
+a:hover {
+  color: blue;
+  background-color: gold;
+}
+
+h3 {
+  border-bottom: solid thick gold;
+  padding-bottom: 0.5em;
+}
+
+h4 {
+  background-color: gold;
+  display: inline;
+  padding: 4px;
+  color: navy;
+}
+
+h5 {
+  background-color: gold;
+  color: navy;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+h6 {
+  border-bottom: solid thick navy;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+p.noback {
+  background-color: transparent;
+  text-align: center;
+  border: double thick navy;
+}
+
+img.right {
+  float: right;
+  border: double thick gold;
+}
+
+img.left {
+  float: left;
+  border: double thick gold;
+}
+
+img.center {
+  float: center;
+  border: double thick navy;
+}
+
+.clear {
+  clear: both;
+}
+
+ol {
+  line-height: 1.4;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 1em;
+}
+
+ol li {
+  background : url(arrow.gif) #99ccff 0.3em no-repeat;
+  padding-left: 30px;
+  color: navy;
+}
+
+a:link {
+  color: red;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #666666;
+  background-color: transparent;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+}
+
+/* enter table styles below */
+
+table {
+  width: 80%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border: solid 3px black;
+  border-collapse: collapse;
+  background-color: #99ccff;
+
+}
+
+caption {
+  padding: 0.5em;
+  color: gold;
+  background-color: #99ccff;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+  border-bottom: solid thick navy;
+}
+
+th {
+  color: #99ccff;
+  background-color: navy;
+}
+
+tr {
+  text-align: center;
+}
+
+<!-- tr {
+  text-align: float;
+} -->
+
+td {
+  padding: 10px;
+  color: navy;
+  background-color: #99ccff;
+  font-weight: bold;
+  border-bottom: solid navy;
+}
+
+.picture {
+  text-align: center;
+  color: gold;
+  background-color: navy;
+}
+
+.box {
+  text-align: center;
+  position: static;
+  border: double thick gold;
+  border-collapse: collapse
+}
+
+.center {
+  float: left;
+  margin-top: 30px;
+  border: double thick gold;
+  margin-left: 40px;
+}
+
+.justpix {
+  text-align: center;
+  background-color: transparent;
+}

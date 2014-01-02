@@ -1,0 +1,127 @@
+﻿body {
+    padding-top: 70px;
+}
+
+#header {
+    position: relative;
+}
+
+    #header h1 {
+        color: blue;
+        text-transform: uppercase;
+    }
+
+#headerBG {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/CDimage.jpg);
+    opacity: 0.5;
+    border-radius: 6px;
+}
+
+#header .highlight {
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+#rightLinks ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#footer {
+    margin-top: 30px;
+    border: 1px solid #317eac;
+    background-color: #eeeeee;
+}
+
+    #footer div {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+
+/* enter table styles below */
+
+table {
+  width: 80%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border: solid 3px blue;
+  border-collapse: collapse;
+  background-color: #C2E0FF;
+
+}
+
+caption {
+  padding: 0.5em;
+  color: navy;
+  background-color: #C2E0FF;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.9em;
+  border-top: solid 3px blue;
+  border-right: solid 3px blue;
+  border-left: solid 3px blue;
+}
+
+/* #C2E0FF is VERY Light Blue used for background in tables */
+
+th {
+  color: #C2E0FF;
+  background-color: blue;
+}
+
+tr {
+  text-align: center;
+}
+
+<!-- tr {
+  text-align: float;
+} -->
+
+td {
+  padding: 10px;
+  color: blue;
+  background-color: #C2E0FF;
+  font-weight: bold;
+  border-bottom: solid blue;
+}
+
+.picture {
+  text-align: center;
+  color: blue;
+  background-color: #C2E0FF;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.box {
+  text-align: center;
+  position: static;
+  border: double thick gold;
+  border-collapse: collapse
+}
+
+.tablecenter {
+  float: left;
+  margin-top: 30px;
+  border: double thick gold;
+  margin-left: 40px;
+}
+
+.justpix {
+  text-align: center;
+  background-color: transparent;
+}
+
